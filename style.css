@@ -2,7 +2,14 @@
     scrollbar-width: none;
     user-select: none;
     .header{
-        
+
+    position: absolute;
+    width: 2749.99px;
+    height: 1509.13px;
+    left: 0px;
+    top: 0px;
+
+
         .logo{
         /* Candy */
         position: absolute;
@@ -30,7 +37,6 @@
         font-weight: 900;
         font-size: 60px;
         line-height: 105.2%;
-        /* or 63px */
 
         color: #444251;
         }
@@ -44,9 +50,13 @@
             height: 70px;
             left: 410px;
             top: 623px;
-
+            
+            border-width: 1px;
+            
             background: linear-gradient(85.61deg, #9C0746 -15.57%, #B44E79 128.11%);
+
             box-shadow: 0px 20px 40px rgba(66, 2, 29, 0.31);
+
             border-radius: 50px;
             }
             .choose{
@@ -65,6 +75,10 @@
             color: #FFFFFF;
             }
         }
+        .button:hower{
+        box-sizing: content-box;
+        }
+
         .minilogo{
 
         position: absolute;
@@ -245,8 +259,6 @@
         top: -34px;
         z-index: 3;
         background: url(img/cupcake1.png) no-repeat;
-
-
         }
         .cupcake3{
 
@@ -270,5 +282,441 @@
 
         }
     }
+    .main {
+    
+    .malinka2{
+
+    position: absolute;
+    left: 1579px;
+    top: 1203px;
+
+    filter: blur(3.5px);
+    z-index: 1;
+    size: 20%;
+    }
+    .malinka3{
+    position: absolute;
+    left: 1879px;
+    top: 1228px;
+   
+    filter: blur(5px);
+    z-index: 1;
+    }
+    .malinka4{
+    position: absolute;
+    left: 1825px;
+    top: 1450px;
+
+    
+    filter: blur(2px);
+    z-index: 1;
+    }
+    .block1{ 
+    
+        z-index: 1;
+        .photo{
+        border-radius: 200px;
+        position: absolute;
+        width: 344px;
+        height: 344px;
+        left: 706px;
+        top: 1550px;
+
+        filter: drop-shadow(0px 11px 80px rgba(0, 0, 0, 0.2));
+        
+        z-index: 2;
+        }
+        .circle1{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 1132px;
+        top: 1616px;
+        border-radius: 50%;
+        z-index: 2;
+        background: #9C0746;
+
+        }
+        .circle2{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 1132px;
+        top: 1936px;
+        z-index: 2;
+        border-radius: 50%;
+        background: #9C0746; 
+        }
+        .circle3{
+
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 755px;
+        top: 1936px;
+        z-index: 2;
+        border-radius: 50%;
+        background: #9C0746;
+
+        }
+        .circle4{
+
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 755px;
+        top: 1616px;
+        z-index: 2;
+        border-radius: 50%;
+        background: #9C0746;
+            
+        }
+        .circle5{
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        left: 710px;
+        top: 1540px;
+        z-index: 1;
+        border-radius: 50%;
+        border: 5px solid #FDE5EA;
+
+        }
+        .text{
+
+        position: absolute;
+        width: 616px;
+        height: 61px;
+        left: 652px;
+        top: 1299px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        
+        text-align: center;
+
+        color: #444251;
+        }
+        .why1{
+                 
+        position: absolute;
+        width: 289px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+
+            .elipse3{
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 420px;
+            top: 1450px;
+            z-index: 1;
+            background: #FDE5EA;
+            border: 1px solid #FFD5DD;
+            border-radius: 50%;
+            box-shadow: 0px 15px 40px rgba(254, 195, 207, 0.5);
+            }
+
+
+            .icon1{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 440px;
+            top: 1470px;
+            z-index: 3;
+
+            }
+
+            .text1{
+            position: absolute;
+            width: 169px;
+            height: 60px;
+            left: 540px;
+            top: 1470px;
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 125%;
+            z-index: 2;
+
+            color: #444251;
+            }
+        }
+        .why2{
+
+        position: absolute;
+        width: 290px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+
+        .elipse4{
+
+        box-sizing: border-box;
+        z-index: 1;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 1400px;
+        top: 1450px;
+        border-radius: 50%;
+        background: #FDE5EA;
+        border: 1px solid #FFD5DD;
+        box-shadow: 0px 15px 40px rgba(254, 195, 207, 0.5);
+        }
+
+        .icon2{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 1420px;
+        top: 1470px;
+        z-index: 3;
+        }
+
+
+        .text2{
+        position: absolute;
+        width: 170px;
+        height: 60px;
+        left: 1210px;
+        top: 1470px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 125%;
+        /* or 30px */
+        text-align: right;
+
+        color: #444251;
+        }
+
+        }
+        .why3{
+
+        position: absolute;
+        width: 267px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+
+            .icon3{
+
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 270px;
+            top: 1750px;
+            z-index: 3;
+            }
+            .text3{
+            position: absolute;
+            width: 147px;
+            height: 60px;
+            left: 370px;
+            top: 1750px;
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 125%;
+
+            color: #444251;
+            z-index: 2;
+            }
+            .elipse5{
+            box-sizing: border-box;
+            border-radius: 50%;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 250px;
+            top: 1730px;
+            z-index: 1;
+            background: #FDE5EA;
+            border: 1px solid #FFD5DD;
+            box-shadow: 0px 15px 40px rgba(254, 195, 207, 0.5);
+
+            }
+        }
+        .why4{
+
+        position: absolute;
+        width: 248px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+
+            .icon4{
+            z-index: 3;
+
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 1590px;
+            top: 1750px;
+
+            }
+            .text4{
+            position: absolute;
+            width: 128px;
+            height: 60px;
+            left: 1422px;
+            top: 1750px;
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 125%;
+            /* or 30px */
+            text-align: right;
+            color: #444251;
+
+            }
+            .elipse6{
+            z-index: 1;
+            border-radius: 50%;
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 1570px;
+            top: 1730px;
+
+            background: #FDE5EA;
+            border: 1px solid #FFD5DD;
+            box-shadow: 0px 15px 40px rgba(254, 195, 207, 0.5);
+
+            }
+        }
+        .why5{
+
+        position: absolute;
+        width: 250px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+
+        .icon5{
+        z-index: 3;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 440px;
+        top: 2030px;
+
+        background: url(icons8-кок-мужчина-100.png);
+
+        }
+        .text5{
+
+        position: absolute;
+        width: 130px;
+        height: 60px;
+        left: 540px;
+        top: 2030px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 125%;
+
+        color: #444251;
+
+
+        }
+        .elipse7{
+        z-index: 1;
+        border-radius: 50%;
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 420px;
+        top: 2010px;
+
+        background: #FDE5EA;
+        border: 1px solid #FFD5DD;
+        box-shadow: 0px 15px 40px rgba(254, 195, 207, 0.5);
+
+        }
+        }
+        .why6{
+
+            position: absolute;
+            width: 258px;
+            height: 100px;
+            left: 0px;
+            top: 0px;
+
+            .icon6{
+
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            left: 1420px;
+            top: 2030px;
+            z-index: 3;
+
+            }
+            .text6{
+            position: absolute;
+            width: 138px;
+            height: 60px;
+            left: 1242px;
+            top: 2030px;
+
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 125%;
+            text-align: right;
+
+            color: #444251;
+
+            }
+            .elipse8{
+            z-index: 1;
+            border-radius: 50%;
+            box-sizing: border-box;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 1400px;
+            top: 2010px;
+
+            background: #FDE5EA;
+            border: 1px solid #FFD5DD;
+            box-shadow: 0px 15px 40px rgba(254, 195, 207, 0.5);
+
+
+            }
+        }
+
+    }
+
+
+    }
+    
 
 }
