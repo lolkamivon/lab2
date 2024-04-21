@@ -43,7 +43,6 @@
         }
 
         .button{
-            
             .rectangle1{
 
             position: absolute;
@@ -56,10 +55,11 @@
 
             border: 1px solid;
             
-            color: linear-gradient(85.61deg, #9C0746 -15.57%, #B44E79 128.11%) ;
-
+            color:  #9C0746 ;
+            transition: background-color 1s ease-in-out;
             
             }
+
             .choose{
             position: absolute;
             width: 151px;
@@ -74,20 +74,16 @@
             line-height: 105.2%;
 
             color: rgba(156, 7, 70, 1);
-
+            transition: color 1s ease-out;
             }
             
         }
         
         .button:hover{
             
-            
             .rectangle1{
-                
-                border-width: 1px;
-                background: linear-gradient(85.61deg, #9C0746 -15.57%, #B44E79 128.11%);
-                box-shadow: 0px 20px 40px rgba(66, 2, 29, 0.31);
-                border-radius: 50px;
+                background-color:  #9C0746 ;
+                box-shadow: 00px 20px 40px rgba(66, 2, 29, 0.31);
                 
             }
             .choose{
@@ -173,11 +169,11 @@
         position: absolute;
         left: 1631px;
         top: 18px;
-
+        scale: 1;
+        transition:scale 0.3s ease-in-out ;
         }
         .basket:hover{
-            transform: scale(1.2); 
-            transition-duration: .3s ;
+            scale: 1.2; 
         }
         .malinka1{
 
@@ -1105,13 +1101,14 @@
             justify-content: space-between;
             
             .step{
+                transition: scale 1s ease-out;
                 .border1{
                 box-sizing: border-box;
                 position: relative;
 
                 width: 294px;
                 height: 339px;
-
+                
                 border: 1px solid #FFD5DD;
                 border-radius: 5px;
                 box-shadow: 0px 4px 30px rgba(65, 64, 64, 0.5);
@@ -1236,8 +1233,9 @@
                 }
             }
             .step:hover{
-                transition:all .5s  ease-out;
-                scale: 1.1;    
+               
+                scale: 1.1;
+                
             }
         }
     }
@@ -1638,8 +1636,8 @@
                 position: relative;
                 width: 155px;
                 height: 19px;
-                top: 207px;
-                left: 732px;
+                top: 205px;
+                left: 738px;
 
                 font-family: 'Montserrat';
                 font-style: normal;
